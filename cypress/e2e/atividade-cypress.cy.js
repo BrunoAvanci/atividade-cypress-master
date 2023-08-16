@@ -19,7 +19,7 @@ describe('Teste Cypress', () => {
 
   })
 
-  it.only('Testar Login', () => {
+  it('Testar Login', () => {
     cy.visit('http://teste-cypress.s3-website-us-east-1.amazonaws.com/')
 
     cy.get('input[type="text"]').type('cypress@teste.com')
